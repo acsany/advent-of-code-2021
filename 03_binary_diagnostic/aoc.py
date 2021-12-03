@@ -6,8 +6,10 @@ def parse(puzzle_input):
     """Parse input"""
     return [line for line in puzzle_input.split("\n") if line]
 
+
 def create_empty_string_list(length):
     return ["" for _ in range(length)]
+
 
 def cut_list(lines):
     """Nicer solution"""
@@ -29,14 +31,14 @@ def part1(lines):
     """Solve part 1"""
     gamma_rate = ""
     epsilon_rate = ""
-    
+
     for digit_line in cut_list(lines):
         ones = digit_line.count("1")
         zeros = digit_line.count("0")
 
         gamma_rate += "1" if ones > zeros else "0"
         epsilon_rate += "0" if ones > zeros else "1"
-    
+
     return dec(gamma_rate) * dec(epsilon_rate)
 
 
@@ -49,7 +51,6 @@ def check_lines(idx, lines, default_return):
         return other_digit
     else:
         return default_return
-
 
 
 def get_rate(num, lines):
@@ -73,7 +74,7 @@ def part2(lines):
     """Solve part 2"""
     oxygen_rate = get_rate("1", lines)
     co2_rate = get_rate("0", lines)
-    
+
     return dec(oxygen_rate) * dec(co2_rate)
 
 
