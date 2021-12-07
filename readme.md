@@ -19,7 +19,7 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/). Using _Pytho
 In the condition cell you see two emoji. They indicate the code condition of both parts of the puzzle. The first one stands for _part 1_ of the puzzle, the second one stands for \_part 2.
 
 | Emoji | Meaning                  |
-| ----- | ------------------------ |
+| :----: | ------------------------ |
 | 🕳     | Not started.             |
 | 🪵     | Tried, but not finished. |
 | 🌱    | Working Solution.        |
