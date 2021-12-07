@@ -4,11 +4,26 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/). Using _Pytho
 
 ## Puzzle Files
 
-| 🗓 Day | 🧩 Puzzle         | 📄 Script                                   | 🧪 Tests                                              |
-| ----: | :---------------- | :------------------------------------------ | :---------------------------------------------------- |
-|     1 | Sonar Sweep       | [aoc202101.py](01_sonar_sweep/aoc202101.py) | [test_aoc202101.py](01_sonar_sweep/test_aoc202101.py) |
-|     2 | Dive              | [aoc.py](02_dive/aoc.py)                    | [test_aoc.py](02_dive/test_aoc.py)                    |
-|     3 | Binary Diagnostic | [aoc.py](03_binary_diagnostic/aoc.py)       | [test_aoc.py](03_binary_diagnostic/test_aoc.py)       |
+| 🗓 Day | 🧩 Puzzle               | Condition | 📄 Script                                   | 🧪 Tests                                              |
+| ----: | :---------------------- | :-------- | :------------------------------------------ | :---------------------------------------------------- |
+|     1 | Sonar Sweep             | 🌳 🌳     | [aoc202101.py](01_sonar_sweep/aoc202101.py) | [test_aoc202101.py](01_sonar_sweep/test_aoc202101.py) |
+|     2 | Dive                    | 🌳 🌳     | [aoc.py](02_dive/aoc.py)                    | [test_aoc.py](02_dive/test_aoc.py)                    |
+|     3 | Binary Diagnostic       | 🌳 🌳     | [aoc.py](03_binary_diagnostic/aoc.py)       | [test_aoc.py](03_binary_diagnostic/test_aoc.py)       |
+|     4 | Giant Squid             | 🌱 🌱     | [aoc.py](04_giant_squid/aoc.py)             | [test_aoc.py](04_giant_squid/test_aoc.py)             |
+|     5 | Hydrothermal Venture    | 🌱 🌱     | [aoc.py](05_hydrothermal_venture/aoc.py)    | [test_aoc.py](05_hydrothermal_venture/test_aoc.py)    |
+|     6 | Lanternfish             | 🌳 🌱     | [aoc.py](06_lanternfish/aoc.py)             | [test_aoc.py](06_lanternfish/test_aoc.py)             |
+|     7 | The Treachery of Whales | 🌳 🌱     | [aoc.py](07_the_treachery_of_whales/aoc.py) | [test_aoc.py](07_the_treachery_of_whales/test_aoc.py) |
+
+### Condition Legend
+
+In the condition cell you see two emoji. They indicate the code condition of both parts of the puzzle. The first one stands for _part 1_ of the puzzle, the second one stands for \_part 2.
+
+| Emoji | Meaning                  |
+| ----- | ------------------------ |
+| 🕳     | Not started.             |
+| 🪵     | Tried, but not finished. |
+| 🌱    | Working Solution.        |
+| 🌳    | Refactored Solution.     |
 
 ## Template Usage
 
