@@ -5,7 +5,7 @@ Solutions to [Advent of Code 2021](https://adventofcode.com/2021/). Using _Pytho
 ## Puzzle Files
 
 | 🗓 Day | 🧩 Puzzle               | Condition | 📄 Script                                   | 🧪 Tests                                              |
-| ----: | :---------------------- | :-------- | :------------------------------------------ | :---------------------------------------------------- |
+| ----: | :---------------------- | :-------: | :------------------------------------------ | :---------------------------------------------------- |
 |     1 | Sonar Sweep             | 🌳 🌳     | [aoc202101.py](01_sonar_sweep/aoc202101.py) | [test_aoc202101.py](01_sonar_sweep/test_aoc202101.py) |
 |     2 | Dive                    | 🌳 🌳     | [aoc.py](02_dive/aoc.py)                    | [test_aoc.py](02_dive/test_aoc.py)                    |
 |     3 | Binary Diagnostic       | 🌳 🌳     | [aoc.py](03_binary_diagnostic/aoc.py)       | [test_aoc.py](03_binary_diagnostic/test_aoc.py)       |
